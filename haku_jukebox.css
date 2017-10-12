@@ -1,0 +1,96 @@
+body {
+  background: #fff;
+  font-family: Roboto;
+  font-size: 22px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-slide-active{
+	background-color:#0085B2;
+	color:white;
+	
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+tr:hover, tr.selected {
+    background-color: #DDDDDD
+}
+td {padding: 5px;}
+}
+
+table { width: 80%  ;
+  background-color: #F0F8FF;
+  color: #0085B2;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+tbody tr:hover.selected td,
+tbody tr:hover td {
+  background-color: #0085B2;
+  color:white;
+  cursor: pointer;
+  .glyphicon-star {
+	color: yellow;
+}
+}
+tbody tr:hover td .glyphicon-star-empty{
+	color:white;
+}
+tbody tr {
+	border-bottom: solid;
+	border-color: #DDDDDD;
+}
+tbody tr.selected td {
+  background-color: #0085B2;
+  color:white;
+  .glyphicon-star {
+	color: yellow;
+}
+}
+tbody tr.selected p.glyphicon-star-empty {
+  color:white;
+}
+tbody tr:selected td .glyphicon-star-empty{
+	color:white;
+}
+tbody tr:selected td .glyphicon-star{
+	color:yellow;
+}
+.glyphicon-star {
+	color: yellow;
+}
+.glyphicon-star-empty:hover {
+	color:white;
+}
+span.tags {
+	background-color: #DDDDDD;
+	padding: 5px;
+	padding-left:5px; 
+	font-size:10px;
+	color: black
+}
+tbody tr:hover td span.tags {
+	background-color: #90B9C9;
+	color:white;
+	
+}
+.songNum {
+	background-color: #90B9C9;
+	padding: 5px 5px 5px 5px;
+	margin-left: 30%;
+	color: white;
+}
+#songTable {
+	padding: 10px;
+)
+

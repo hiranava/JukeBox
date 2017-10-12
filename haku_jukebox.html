@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Haku Jukebox</title>
+
+<!-- Google fonts link  -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<!-- To make the page mobile friendly  -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<!-- Include external library Swiper to build the Carousel(http://idangero.us/swiper/api/) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+<link rel="stylesheet"	href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include bootstrap and Ajax libraries -->
+<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- Populating the album list -->
+	<div class="swiper-container">
+		<div id="imageCarousel" class="swiper-wrapper"></div>
+		<div class="swiper-pagination"></div>
+		<!-- navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	</div>
+	<!-- Populating the song list of the selected album -->
+	<center>
+		<table id="songTable">
+			<tbody>
+			</tbody>
+		</table>
+	</center>
+<!-- Including the css and javascript file -->
+<link rel="stylesheet" href="haku_jukebox.css">
+<script src="haku_jukebox.js"></script>
+</body>
+</html>
